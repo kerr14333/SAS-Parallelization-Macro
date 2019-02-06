@@ -173,7 +173,7 @@ To spawn the workers call the `%SignOn` macro, passing the number of sessions yo
 
 You should see the following in your log.
 
-![signon](img/signon.jpg)
+![signon](img/signon.JPG)
 
 It notifies you that your 3 processes have started. The `!!!` at the end lets you know that these three processes are ready to receive instructions.
 
@@ -194,7 +194,7 @@ Once the above as completed simply call the distribute macro
 
 You will see the following output in your log window:
 
-![distribute](img/distribute.jpg)
+![distribute](img/distribute.JPG)
 
 The output lets you monitor the progress of the job and the status of each one of the workers. There are three characters, either an exclamation mark or a period. The <b>!</b> means that a worker is available to receive work. The <b>.</b> means that a worker is currently busy. For example on the first notice we have <b>.!!</b> meaning that the first worker unit was assigned work and the remaining two are waiting. The numbers in the paranthesis next to this mean (<i>number of jobs submitted</i>,<i>number of jobs completed</i> )/<i>total number of jobs</i>. These messages are output periodically to allow you to monitor the job.
 
