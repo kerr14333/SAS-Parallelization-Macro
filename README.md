@@ -196,7 +196,6 @@ You will see the following output in your log window:
 
 ![distribute](img/distribute.JPG)
 
-
 The output lets you monitor the progress of the job and the status of each one of the workers. There are three characters, either an exclamation mark or a period. The <b>!</b> means that a worker is available to receive work. The <b>.</b> means that a worker is currently busy. For example on the first notice we have <b>.!!</b> meaning that the first worker unit was assigned work and the remaining two are waiting. The numbers in the paranthesis next to this mean (<i>number of jobs submitted</i>,<i>number of jobs completed</i> )/<i>total number of jobs</i>. These messages are output periodically to allow you to monitor the job.
 
 ### Debugging
